@@ -4,12 +4,12 @@ import { BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className="grid md:grid-cols-3 bg-black text-white md:p-8 p-4">
+    <footer className="grid md:grid-cols-3 bg-black relative z-20 text-white md:p-8 p-4">
 
       <div className="flex flex-col col-span-3 md:col-span-1 py-2">
             {/* <Logo /> */}
             <p>
-                Africa's favourite Group buying platform
+               Empowering Digital Entrerenuership
             </p>
       </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="w-full col-span-3 mt-6">
         <hr className="border-gray-700 mb-6" />
         <p className="text-center text-gray-500">
-          &copy; {new Date().getFullYear()} Grouby. All rights reserved.
+          &copy; {new Date().getFullYear()} dEDGE. All rights reserved.
         </p>
       </div>
     </footer>

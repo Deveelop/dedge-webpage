@@ -14,7 +14,7 @@ const Header = () => {
     const handleaccount = () => { setAccount(!account) }
 
   return (
-    <header className='w-screen fixed top-0 left-0 border-b-2 border-[#012E6D] bg-[#012E6D] shadow-xl z-10'>    
+    <header className='w-screen fixed top-0 left-0 border-b-2 border-[#012E6D] bg-[#012E6D] shadow-xl z-20'>    
         {/* Nav for mobile only */}
         <nav className="w-full flex flex-wrap justify-between place-items-center p-4 pt-3 md:hidden text-white">
             <button onClick={handlenav} className='md:hidden hover:text-[--col] zi-10'>
