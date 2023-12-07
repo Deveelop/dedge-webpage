@@ -21,7 +21,7 @@ const Services = () => {
 <h1 className=' text-xl font-bold'>SERVICES</h1>
 <h2>What We Offer</h2>
 </div>
-<div className="grid grid-cols-3">
+<div className="grid md:grid-cols-3">
     <div className="">
       <img src='/graduationcap.png'/>
       <h4 className=' text-lg font-bold'>Comprehensive Online Courses</h4>
