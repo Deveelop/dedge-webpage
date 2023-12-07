@@ -3,6 +3,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineShoppingCart  } from 'react-ico
 import { BsPerson, BsPersonPlus, BsPersonLock } from 'react-icons/bs'
 import AccountItems from './AccountItems'
 import Categories from './Categories'
+import { Link } from 'react-router-dom'
 
 
 
@@ -54,10 +55,10 @@ const Header = () => {
                 </span>
                 </p>
                 <div className='flex place-items-center cursor-pointer px-3 p-2 relative font-semibold text-md text-white'>
-                <li className='pl-1'>About</li>
+                <li className='pl-1'><Link to='/about'>About</Link></li>
                 </div>
                 <div className='flex place-items-center cursor-pointer px-3 p-2 relative font-semibold text-md text-white'>
-                <li className='pl-1'>Services</li>
+                <li className='pl-1'><Link to='/services'>Services</Link></li>
                 </div>
                 <div className='flex place-items-center cursor-pointer px-3 p-2 relative font-semibold text-md text-white'>
                 <li className='pl-1'>Portfolio</li>
